@@ -1,0 +1,6 @@
+My fisrst circuit.
+v 1 0 dc 10
+r 1 0 3
+.op * perform a DC operating point analysis.
+.print v(1) i(v)
+.end

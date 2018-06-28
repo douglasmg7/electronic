@@ -1,0 +1,11 @@
+My fisrst circuit.
+v 1 0 dc 10
+r 1 0 5
+
+
+.control
+tran .5s 1s
+plot v(1)
+.endc
+
+.end

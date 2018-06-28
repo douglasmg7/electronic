@@ -1,0 +1,7 @@
+My fisrst circuit.
+v1 1 0 
+r1 1 0 3
+.dc v1 4 12 .5
+.print dc v(1)
+.print dc i(v1)
+.end
